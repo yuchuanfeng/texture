@@ -3,6 +3,7 @@
 //
 
 window.onload = function() {
+	console.log("你不乖哦，onload");
 	// Handle Texture Picker
 	const $picker = document.querySelector('#texture-picker');
 	const $hidePicker = document.querySelector('#hidePicker');

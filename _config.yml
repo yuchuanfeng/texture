@@ -1,34 +1,54 @@
 title: Texture Theme
 author: GitHub User
 email: your-email@domain.com
-description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: ""
 show_excerpts: true # set to true to show excerpts on the homepage
-baseurl: /texture
+# baseurl: /texture
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
   sass_dir: _sass
 
+paginate: 15
+paginate_path: "page/:num"
+baseurl: ""
+
 permalink: /posts/:title/
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      styles : [highlight.css, gitment.css, tags.css]
+      scripts : [gitment.js, tags.js, script.js]
+
+
 texture:
   title: Adam Denisov
   tagline: Developer. Designer
   date_format: "%b %-d, %Y"
   style: black
-  showNav: false
-  showPicker: true
+  showNav: true
+  showPicker: false
 
   # generate social links in footer
   social_links:
     twitter: thelehhman
     github:  thelehhman
-    linkedIn: in/thelehhman
-    rss: rss
- 
+    weibo: thelehhman
+    email: thelehhman
+github:
+  username: yuchuanfeng
+gitment:
+    repo: texture
+    client_id: 3502f566baaed04c2bc8
+    client_secret: 74ba830266e1c8337951faf7d16f438fdb6ab475
+
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -40,4 +60,5 @@ texture:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-paginate
 #  - jekyll-feed
