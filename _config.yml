@@ -1,5 +1,6 @@
-title: Texture Theme
-author: GitHub User
+
+title: 宁静致远
+author: yuchuanfeng
 email: your-email@domain.com
 description: ""
 show_excerpts: true # set to true to show excerpts on the homepage
@@ -29,8 +30,8 @@ defaults:
 
 
 texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
+  title: 宁静致远
+  tagline: Developer. iOS
   date_format: "%b %-d, %Y"
   style: black
   showNav: true
@@ -38,14 +39,14 @@ texture:
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    weibo: thelehhman
-    email: thelehhman
+    twitter: chrisyu0229
+    github:  yuchuanfeng
+    weibo: 6189403394
+    email: yuchuanfeng89@gmail.com
 github:
   username: yuchuanfeng
 gitment:
-    repo: texture
+    repo: yuchuanfeng.github.io
     client_id: 3502f566baaed04c2bc8
     client_secret: 74ba830266e1c8337951faf7d16f438fdb6ab475
 
