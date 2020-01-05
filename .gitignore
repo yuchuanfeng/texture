@@ -5,3 +5,4 @@ _site/
 _posts/
 Gemfile.lock
 .DS_Store
+downloads/
